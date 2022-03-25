@@ -1,0 +1,13 @@
+{
+  "id" : "https://christianalgar.github.io/Von-den-Badern-title-pages/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in christianalgar/Von-den-Badern-title-pages project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://christianalgar.github.io/Von-den-Badern-title-pages/manifests/manifest.json",
+    "label" : "Von den Bädern title pages with woodcut illustrations "
+  } ]
+}
