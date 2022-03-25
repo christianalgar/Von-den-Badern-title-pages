@@ -1,0 +1,81 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://christianalgar.github.io/Von-den-Badern-title-pages/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Von den Bädern title pages with woodcut illustrations ",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Two title pages with woodcuts illustrating the tale,Von den Bädern (From the Baths), one printed in Nuremberg before 1495, the other printed in Brno after 1495. One is a plaigarized text. ]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[London, British Library (IA.51720); München, Bayerische Staatsbibliothek (Rar. 186)]",
+  "sequences" : [ {
+    "@id" : "http://be8f28ca-7e13-4b2f-a819-81f8fbd54a23",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://573f2508-b279-4b0b-b905-17192409a059",
+      "@type" : "sc:Canvas",
+      "label" : "Von den Bädern, München, Bayerische Staatsbibliothek -- Rar. 186, title page",
+      "height" : 4622,
+      "width" : 1765,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fb3a02c3-477d-42d8-81f1-f71e02988ec3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027049_00005/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027049_00005",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "gif", "jpg", "png", "tif", "webp" ],
+              "supports" : [ "profileLinkHeader", "canonicalLinkHeader", "regionSquare", "rotationBy90s", "mirroring", "sizeAboveFull" ]
+            } ]
+          },
+          "height" : 4622,
+          "width" : 1765
+        },
+        "on" : "http://573f2508-b279-4b0b-b905-17192409a059"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b7bd4051-35c4-41db-81fc-c50915f3bd3e",
+      "@type" : "sc:Canvas",
+      "label" : "Von den Bädern, London, British Library (IA.51720), title page",
+      "height" : 6370,
+      "width" : 4632,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://129849c9-a001-4010-91fb-94d2e2f48271",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100108835798.0x000007/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100108835798.0x000007",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6370,
+          "width" : 4632
+        },
+        "on" : "http://b7bd4051-35c4-41db-81fc-c50915f3bd3e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
